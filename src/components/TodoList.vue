@@ -1,7 +1,7 @@
 <template>
   <div class="todo">
     <h1>
-      こんにちは{{ title }}
+      おはよう{{ title }}
     </h1>
     <form @submit.prevent="addTodo()">
       <input type="text" class="inputTodo" v-model="newTodo" />
